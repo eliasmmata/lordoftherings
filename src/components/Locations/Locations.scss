@@ -1,0 +1,35 @@
+
+.locations-grid {
+    background-color: #fdf0d5;
+    /* height: 40vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    min-height: 75vh;
+    & .card {
+        background-color: #d81e5b;
+        width: 20vw;
+        margin: 1.25vw;
+        font-family: 'Rings';
+        & h3 {
+            color: #c6d8d3;
+            & span {
+                color: #fdf0d5;
+                display: block;
+                font-size: 16px;
+                padding-top: 5px;
+            }
+        }
+        & h4 {
+            color: #c6d8d3;
+            & span {
+                color: #fdf0d5;
+                display: block;
+                font-size: 16px;
+                padding-top: 5px;
+            }
+        }
+    }
+}

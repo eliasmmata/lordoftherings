@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Rings';
+    src: url(../../fonts/RINGM___.TTF);
+}
+h1 {
+    font-family: 'Rings';
+    margin: 0;
+    color:  #fdf0d5;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 2px 1px #331832;
+}
+.home-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-image: url('/lord-background.jpeg'); */
+}

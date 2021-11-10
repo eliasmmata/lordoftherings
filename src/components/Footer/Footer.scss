@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Rings';
+    src: url(../../fonts/RINGM___.TTF);
+}
+footer {
+    display: flex;
+    background-color: #fdf0d5;
+    font-family: 'Rings';
+    & ul {
+        list-style: none;
+    display: flex;
+    margin: 1rem auto;
+;
+    padding: 0;
+        
+        & li {
+            color: #331832;
+            margin: 0 1rem
+        }
+    }
+}

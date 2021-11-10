@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Rings';
+    src: url(../../fonts/RINGM___.TTF);
+}
+
+
+.characters-grid {
+    background-color: #fdf0d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    & .card {
+        font-family: 'Rings';
+    background-color: #d81e5b;
+    width: 20vw;
+    margin: 1.25vw;
+    display: flex;
+    min-height: 45vh;
+    flex-wrap: wrap;
+    justify-content: center;
+        & p {
+            width: 100%;
+        }
+        & h3 {
+            color: #c6d8d3;
+            font-size: 20px;
+            margin: 0;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            & span {
+                color: #fdf0d5;
+                display: block;
+                font-size: 14px;
+                padding-top: 5px;
+            }
+        }
+        & h4 {
+            color: #c6d8d3;
+            font-size: 20px;
+            & span {
+                color: #fdf0d5;
+                display: block;
+                font-size: 14px;
+                padding-top: 5px;
+            }
+        }
+    }
+}
